@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nipro</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <!--css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="container">
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid p-0">
+                    <!--logo-->
+                  <a class="navbar-brand" href="index.html">
+                    <h1 class="logo">Nipro Agency</h1>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_id" aria-controls="nav_id" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                   <!--menu-->
+                  <div class="collapse navbar-collapse c_nav" id="nav_id">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <!--search button-->
+                    <div class="dropdown">
+                      <button class="btn m_btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                      <ul class="dropdown-menu p-0 dp_show">
+                          <input class="form-control m_input" list="datalistOptions" id="exampleDataList" placeholder="Search here">
+                          <datalist id="datalistOptions">
+                          <option value="Project">
+                          <option value="Pricing">
+                          <option value="Contact">
+                          <option value="Developer">
+                          <option value="designer">
+                        </datalist>
+                      </ul>
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+     <!--header end-->
+     <!--slider start-->
+    <section class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators s_item">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active s_item_active" aria-current="true" aria-label="Slide 1">PREV</button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="s_item_active" aria-label="Slide 2">|||</button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="s_item_active" aria-label="Slide 3">NEXT</button>
+            </div>
+            <div class="carousel-inner">
+                <!--content-->
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div data-aos="fade-right"  data-aos-duration="1300" class="slider-content">
+                                <h1>We Have Talented Team</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                                <button class="s_btn" type="button">Learn more <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              </div>
+              <!--item-->
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="slider-content">
+                                <h1>We Have Talented Team</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                                <button class="s_btn" type="button">Learn more <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="slider-content">
+                                <h1>We Have Talented Team</h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                                <button class="s_btn" type="button">Learn more <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </section>
+    <!--slider end-->
+    <!--welcome section start-->
+    <section class="welcome">
+     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4">
+                <div class="line"></div>
+                <h1 data-aos="fade-up"  data-aos-duration="1300" class="w_title">welcome to nipro</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <p  data-aos="fade" class="w_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="row">
+                <!--single-->
+            <div class="col-lg-3 col-md-6">
+                <div data-aos="fade-up"  data-aos-duration="1300" class="item">
+                  <i class="fa-regular fa-gem"></i>
+                  <h2>branding</h2>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <button type="button" class="w_btn p-0">More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+                 <!--single-->
+            <div class="col-lg-3 col-md-6">
+                <div data-aos="fade-up"  data-aos-duration="1200" class="item">
+                  <i class="fa-solid fa-rocket"></i>
+                      <h2>ui & ux</h2>
+                      <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                      <button type="button" class="w_btn p-0">More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+                 <!--single-->
+                 <div data-aos="fade-up"  data-aos-duration="1300" class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <i class="fa-solid fa-bookmark"></i>
+                      <h2>app design</h2>
+                      <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                      <button type="button" class="w_btn p-0">More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                     <!--single-->
+            <div class="col-lg-3 col-md-6">
+                <div data-aos="fade-up"  data-aos-duration="1100" class="item">
+                  <i class="fa-regular fa-circle-xmark"></i>
+                  <h2>web design</h2>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <button type="button" class="w_btn p-0">More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+     </div>   
+    </section>
+    <!--welcome section end-->
+    <!--about us-->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <div data-aos="fade-up"  data-aos-duration="1300" class="a_img">
+                        <img class="img-fluid" src="./image/about.png" alt="nipro">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-6">
+                    <div data-aos="fade-up"  data-aos-duration="1300" class="a_content">
+                        <h1 class="w_title">about us</h1>
+                        <p class="w_p a_p">Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un
+                        </p>
+                        <p class="w_p a_p"> 
+                            with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <button class="s_btn a_btn">learn more <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--about us end-->
+     <!--project start-->
+    <section class="projects bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-4">
+            <div class="line"></div>
+              <h1 data-aos="fade-up" class="w_title p_title">Recent Work</h1>
+          </div>
+        </div>
+        <div class="row">
+         <div class="nav_item">
+          <!--nav item-->
+          <nav class="navbar navbar-expand-lg">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav_item">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">App design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Web design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Ui design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">photoshop</a>
+                  </li>
+                </ul>
+              </div>  
+          </nav>
+         </div>
+        </div>
+        <!--project img-->
+        <div class="row">
+          <div class="col-lg-4">
+            <div data-aos="fade-up" class="p_img">
+              <img class="img-fluid" src="./image/p-1.png" alt="porfolio">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up" class="p_img">
+              <img class="img-fluid" src="./image/p-2.png" alt="porfolio">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up" class="p_img">
+              <img class="img-fluid" src="./image/p-3.png" alt="porfolio">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up" data-aos-duration="1300" class="p_img">
+              <img class="img-fluid" src="./image/p-4.png" alt="porfolio">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up" data-aos-duration="1100" class="p_img">
+              <img class="img-fluid" src="./image/p-5.png" alt="porfolio">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="p_img">
+              <img class="img-fluid" src="./image/p-6.png" alt="porfolio">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--why chose nipro-->
+    <section class="works">
+      <div class="container">
+        <div class="row">
+          <div class="line"></div>
+          <h1 data-aos="fade-up" data-aos-duration="1500" class="w_title p_t">Why chose nipro</h1>
+        </div>
+        <!--project item-->
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="work_item list-inline">
+                <i class="fa-regular fa-gem list-inline-item"></i> 
+                <h1 class="list-inline-item">creative design</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="work_item list-inline">
+              <i class="fa-solid fa-share-nodes"></i>
+                <h1 class="list-inline-item">minimal design</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="work_item list-inline">
+                <i class="fa-solid fa-image"></i>
+                <h1 class="list-inline-item">retina display</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="work_item list-inline">
+              <i class="fa-solid fa-clock"></i>
+                <h1 class="list-inline-item">full responsive</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="work_item list-inline">
+              <i class="fa-solid fa-gear"></i>
+                <h1 class="list-inline-item">updates & support</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="work_item list-inline">
+              <i class="fa-solid fa-lines-leaning"></i>
+                <h1 class="list-inline-item">easy to customize</h1>
+                <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+                <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--team start-->
+<section class="team">
+  <div class="container">
+    <div class="row">
+      <div class="line"></div>
+      <h1 data-aos="fade-up" data-aos-duration="1500" class="w_title team-h1">who work with us</h1>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-6">
+        <div data-aos="fade-up" data-aos-duration="1200" class="t_item">
+          <img class="img-fluid m-0" src="./image/t-1.png" alt="team">
+          <div class="box-content">
+            <div class="content">
+              <ul class="social m-0 p-0">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="team_title text-center">
+          <h1>Ashiful haque pappu</h1>
+          <p>ui/ux design</p>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div data-aos="fade-up" data-aos-duration="1400" class="t_item">
+          <img class="img-fluid m-0" src="./image/t-2.png" alt="team">
+          <div class="box-content">
+            <div class="content">
+              <ul class="social m-0 p-0">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+         <div class="team_title text-center">
+          <h1>Ashiful haque pappu</h1>
+          <p>ui/ux design</p>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div data-aos="fade-up" data-aos-duration="1600" class="t_item">
+          <img class="img-fluid m-0" src="./image/t-3.png" alt="team">
+          <div class="box-content">
+            <div class="content">
+              <ul class="social m-0 p-0">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+         <div class="team_title text-center">
+          <h1>Ashiful haque pappu</h1>
+          <p>ui/ux design</p>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div data-aos="fade-up" data-aos-duration="1800" class="t_item">
+          <img class="img-fluid m-0" src="./image/t-4.png" alt="team">
+          <div class="box-content">
+            <div class="content">
+              <ul class="social m-0 p-0">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+         <div class="team_title text-center">
+          <h1>Ashiful haque pappu</h1>
+          <p>ui/ux design</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--team end-->
+<!--pricing-->
+<section class="pricing">
+<div class="container">
+  <div class="row">
+    <div class="line"></div>
+    <h1 data-aos="fade-up" data-aos-duration="1500" class="w_title team-h1">best pricing</h1>
+  </div>
+  <div class="row">
+    <!--single item-->
+    <div class="col-lg-3 col-md-6">
+      <div data-aos="" class="p_item list-inline">
+        <h2>Basic</h2>
+        <h1 class="list-inline-item">$29</h1><p class="list-inline-item">/per month</p>
+        <p>-  1Th Storage <br>
+          -  Unlimited Members <br>
+          -  50 Project <br>
+          -  70GB Bandwidth <br>
+          -  24/7 Customer Support <br>
+          </p>
+          <button class="s_btn a_btn">Sign up <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="p_item list-inline">
+        <h2 style="width: 99px;">standard</h2>
+        <h1 class="list-inline-item">$29</h1><p class="list-inline-item">/per month</p>
+        <p>-  1Th Storage <br>
+          -  Unlimited Members <br>
+          -  50 Project <br>
+          -  70GB Bandwidth <br>
+          -  24/7 Customer Support <br>
+          </p>
+          <button class="s_btn a_btn">Sign up <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="p_item list-inline">
+        <h2 style="width: 110px;">Enterprise</h2>
+        <h1 class="list-inline-item">$29</h1><p class="list-inline-item">/per month</p>
+        <p>-  1Th Storage <br>
+          -  Unlimited Members <br>
+          -  50 Project <br>
+          -  70GB Bandwidth <br>
+          -  24/7 Customer Support <br>
+          </p>
+          <button class="s_btn a_btn">Sign up <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="p_item list-inline">
+        <h2 style="width: 96px;">platinum</h2>
+        <h1 class="list-inline-item">$29</h1><p class="list-inline-item">/per month</p>
+        <p>-  1Th Storage <br>
+          -  Unlimited Members <br>
+          -  50 Project <br>
+          -  70GB Bandwidth <br>
+          -  24/7 Customer Support <br>
+          </p>
+          <button class="s_btn a_btn">Sign up <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+    </div>
+<!--item end-->
+  </div>
+</div>
+</section>
+<!--buy now-->
+<section class="buy">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 p-0">
+        <div class="b_now">
+          <h1 class="text-center">Nipro  |  Responsive HTML Template</h1>
+          <button class="s_btn p_btn ">buy now <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--slider 2-->
+<section class="slider-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+        <img data-aos="flip-up" data-aos-duration="1500" class="img-fluid" src="image/s-2.png" alt="slider image">
+      </div>
+      <div class="col-lg-8 col-md-8 sl_item">
+        <h1>Al-Rayhan</h1>
+        <p>Co-Founder & COO</p>
+        <h2>DeviserWeb</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+        </p>
+        <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="col-lg-1 col-md-1 p-0 m-0 sl_btn">
+      <a href="#">PREV ||| NEXT</a> 
+      </div>
+    </div>
+  </div>
+</section>
+<!--contact-->
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="c_form">
+        <h1 data-aos="fade-up" data-aos-duration="1500" class="w_title c_h1">Contact</h1>
+        <!--form-->
+        <form class="row g-3">
+          <div class="col-md-6 c_input">
+            <label for="inputEmail4" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputPassword4" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="inputAddress" >
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Your Message</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="">
+          </div>
+        </form>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-4 text-center">
+            <button class="s_btn a_btn c_btn">Send now <i class="fa-solid fa-arrow-right"></i> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--footer 1-->
+<section class="footer1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-4">
+        <div class="line"></div>
+        <h1 data-aos="fade-up"  data-aos-duration="1300" class="w_title f_title">Nipro agency</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <p class="text-center">Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum 
+          Has been the koi jabi mama</p>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-4 list-inline f_icon">
+        <i class="fa-brands fa-facebook list-inline-item"></i>
+        <i class="fa-brands fa-square-dribbble list-inline-item"></i>
+        <i class="fa-brands fa-square-behance list-inline-item"></i>
+        <i class="fa-brands fa-square-twitter list-inline-item"></i>
+        <i class="fa-brands fa-linkedin list-inline-item"></i>
+        <i class="fa-brands fa-google-plus list-inline-item"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer2">
+        <div class="col-lg-12 col-md-8">
+          <div class="left">
+            <p>All rights reserved NIPRO AGENCY  |  By : M M Khairul Haque</p>
+          </div>
+          <div class="right">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="index.html">support</a></li>
+              <li class="list-inline-item"><a href="index.html">site map</a></li>
+              <li class="list-inline-item"><a href="index.html">contact us</a></li>
+              <li class="list-inline-item"><a href="index.html">terms of use</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--main footer-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
